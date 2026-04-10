@@ -1,7 +1,7 @@
 # DevMenthors - Sistema de Cronograma Inteligente
 
 <p align="center">
-  <img src="public/assets/devmenthors_LogoColor.png" alt="DevMenthors Logo" width="200">
+  <img src="public/assets/devMentors_LogoBranco.png" alt="DevMenthors Logo" width="200">
 </p>
 
 O DevMenthors Cronograma é uma solução completa para a gestão e automação do rodízio de professores e mentores. O sistema foi desenvolvido para resolver a complexidade de alocação mensal, garantindo que as regras de negócio sejam aplicadas de forma justa e automática.
