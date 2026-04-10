@@ -84,8 +84,3 @@ Para realizar ações de geração ou limpeza, é necessária a senha administra
 
 ---
 
-## Licença
-Este projeto é de uso exclusivo para a escola DevMenthors.
-
----
-*Desenvolvido para a comunidade DevMenthors.*
