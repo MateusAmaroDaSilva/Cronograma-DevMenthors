@@ -1,0 +1,87 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    /* Colors — HSL Format */
+    --background: 220 20% 97%;
+    --foreground: 228 20% 10%;
+    --card: 0 0% 100%;
+    --primary: 230 90% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 60% 95%;
+    --secondary-foreground: 230 90% 40%;
+    --muted: 220 14% 94%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 230 80% 93%;
+
+    --destructive: 0 84% 60%;
+    --border: 220 13% 89%;
+    --ring: 230 90% 50%;
+    --radius: 0.75rem;
+
+    /* Tag colors */
+    --teacher-tag-bg: 230 60% 94%;
+    --teacher-tag-text: 230 60% 35%;
+    --teacher-tag-border: 230 60% 85%;
+    --mentor-tag-bg: 160 40% 92%;
+    --mentor-tag-text: 160 30% 30%;
+    --mentor-tag-border: 160 40% 80%;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(30, 50, 120, 0.06), 0 0 0 1px rgba(30, 50, 120, 0.04);
+    --shadow-md: 0 4px 12px rgba(30, 50, 120, 0.08), 0 0 0 1px rgba(30, 50, 120, 0.04);
+    --shadow-lg: 0 8px 24px rgba(30, 50, 120, 0.1), 0 0 0 1px rgba(30, 50, 120, 0.04);
+}
+
+/* ─── Base ─── */
+body {
+    font-feature-settings: 'tnum';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Alpine.js x-cloak ─── */
+[x-cloak] {
+    display: none !important;
+}
+
+/* ─── Scrollbar Styling ─── */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(220 14% 88%);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(220 14% 78%);
+}
+
+/* ─── Drag & Drop Visual Feedback ─── */
+[draggable="true"] {
+    -webkit-user-drag: element;
+}
+
+[draggable="true"]:active {
+    cursor: grabbing;
+}
+
+/* ─── Smooth transitions for grid cells ─── */
+.grid > div {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* ─── Selection colors ─── */
+::selection {
+    background: hsl(230 90% 50% / 0.15);
+    color: hsl(230 90% 30%);
+}
