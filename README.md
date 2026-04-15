@@ -81,4 +81,3 @@ O DevMenthors Cronograma é uma solução completa para a gestão e automação 
 
 ## Credenciais de Administrador
 Para realizar ações de geração ou limpeza, é necessária a senha administrativa definida pelo gestor do sistema.
-
